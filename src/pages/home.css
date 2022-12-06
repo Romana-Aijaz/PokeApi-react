@@ -1,0 +1,79 @@
+.pokemonListWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 470px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 234, 234);
+    border-radius: 15px 50px 30px; 
+    -webkit-box-shadow: 16px 16px 16px 16px rgba(206, 142, 119, 0.68);
+    box-shadow: 0px 5px 5px rgba(82, 19, 19, 0.68);
+}
+.homeContainer {
+    width: 100%;
+    height: 700px;
+    border: solid bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 169, 39);
+}
+.pokemonList {
+    max-height: 395px;
+    overflow : auto;
+    padding: 6px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.buttonsContainer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.pageButtonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+}
+.resizeInputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+}
+.resizeInput {
+    width: 200px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.buttons {
+    width: 120px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(153, 59, 59);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pokemonLogo{
+    width: 105px;
+    height: 85px;
+}
+.pokemonLogoContainer {
+    margin-right: 850px;
+    margin-top: -420px;
+    position: absolute;
+}
