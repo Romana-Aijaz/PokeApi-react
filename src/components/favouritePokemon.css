@@ -1,0 +1,41 @@
+.favouritePokemonWrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    border-radius: 10px;
+    -webkit-box-shadow: 16px 16px 16px 16px rgba(206, 142, 119, 0.68);
+    box-shadow: 0px 5px 5px rgba(82, 19, 19, 0.68);
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color: #dd6060;
+    color: white;
+}
+.favPokemonLogoContainer {
+    margin-top: -50px;
+    width: 100%;
+    height: 30px;
+}
+.favPokemonDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.nameAndImageContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.favPokemonLogo {
+    width: 105px;
+    height: 85px;
+    margin-top: -25px;
+    margin-left: 5px;
+}
